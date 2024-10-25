@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s7vJbfRyk0QnSU1GyM+3txHoXO9zMqQ7SXWZb6cR66I=",
+  "Hash": "2hE52dIcdRN+7TeK0TyldB0k+nPrG00NB5kJzUAayh8=",
   "Source": "My-Demo-webapp",
   "BasePath": "_content/My-Demo-webapp",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\My-Demo-webapp.bundle.scp.css"
     },
     {
+      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\login.css",
+      "SourceId": "My-Demo-webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\",
+      "BasePath": "_content/My-Demo-webapp",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
       "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\site.css",
       "SourceId": "My-Demo-webapp",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\login.js",
+      "SourceId": "My-Demo-webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\",
+      "BasePath": "_content/My-Demo-webapp",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\site.js",

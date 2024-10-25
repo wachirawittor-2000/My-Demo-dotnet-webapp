@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\My-Demo-webapp.bundle.scp.css"
     },
     {
+      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
       "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\site.js",

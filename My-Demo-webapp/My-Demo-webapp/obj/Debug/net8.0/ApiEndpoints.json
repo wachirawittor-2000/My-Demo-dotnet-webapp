@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "My_Demo_webapp.Controllers.ApiController.LoginApiController",
+    "Method": "Login",
+    "RelativePath": "api/LoginApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "My_Demo_webapp.Models.LoginReqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
