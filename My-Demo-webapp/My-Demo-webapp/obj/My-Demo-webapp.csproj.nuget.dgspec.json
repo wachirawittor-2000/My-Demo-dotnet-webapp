@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj": {}
+    "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj": {}
   },
   "projects": {
-    "d:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj": {
+    "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj",
+        "projectUniqueName": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj",
         "projectName": "My-Demo-webapp",
-        "projectPath": "d:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj",
+        "projectPath": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp.csproj",
         "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
-        "outputPath": "d:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\obj\\",
+        "outputPath": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
