@@ -1,8 +1,37 @@
 @{
-    ViewData["Title"] = "My Demo App";
+    ViewData["Title"] = "Login";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My WebAppilcation Demo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="login-con">
+        <h1>Login</h1>
+        <div class="login-form">
+            <div class="login-input">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Type your username" />
+            </div>
+            <div class="login-input">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Type your password" />
+            </div>
+            <div class="login-choice">
+                <a href="#">Forgot password?</a>
+                <button onclick="loginApi()">LOGIN</button>
+                <a href="#">SIGN UP</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/login.js" asp-append-version="true"></script>
+</html>
