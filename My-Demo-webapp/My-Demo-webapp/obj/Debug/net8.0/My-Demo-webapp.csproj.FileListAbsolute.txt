@@ -28,3 +28,4 @@ D:\DotNet\My-Demo-webapp\My-Demo-webapp\My-Demo-webapp\obj\Debug\net8.0\refint\M
 D:\DotNet\My-Demo-webapp\My-Demo-webapp\My-Demo-webapp\obj\Debug\net8.0\My-Demo-webapp.pdb
 D:\DotNet\My-Demo-webapp\My-Demo-webapp\My-Demo-webapp\obj\Debug\net8.0\My-Demo-webapp.genruntimeconfig.cache
 D:\DotNet\My-Demo-webapp\My-Demo-webapp\My-Demo-webapp\obj\Debug\net8.0\ref\My-Demo-webapp.dll
+d:\DotNet\My-Demo-webapp\My-Demo-webapp\My-Demo-webapp\obj\Debug\net8.0\My-Demo-webapp.sourcelink.json
