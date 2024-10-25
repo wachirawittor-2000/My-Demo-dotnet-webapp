@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Login.cshtml*",
+              "RelativeToolTip": "My-Demo-webapp\\Views\\Home\\Login.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T09:55:12.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
@@ -30,8 +47,7 @@
               "RelativeToolTip": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T09:10:29.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T09:10:29.961Z"
             },
             {
               "$type": "Document",
@@ -41,7 +57,7 @@
               "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "My-Demo-webapp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T09:10:23.593Z",
               "EditorCaption": ""
