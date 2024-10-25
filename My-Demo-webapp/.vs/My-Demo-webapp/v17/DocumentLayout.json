@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T09:10:29.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "My-Demo-webapp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:10:23.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
