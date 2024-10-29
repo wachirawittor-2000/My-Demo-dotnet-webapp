@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using My_Demo_webapp.Data;
 using My_Demo_webapp.Models;
+using My_Demo_webapp.Entites;
 
 namespace My_Demo_webapp.Controllers.ApiController
 {
@@ -7,17 +10,17 @@ namespace My_Demo_webapp.Controllers.ApiController
     [ApiController]
     public class LoginApiController : Controller
     {
-        /*private readonly ApplicationDBContext _dbContext;*/
-
-        /*public LoginApiController(ApplicationDBContext dbContext)
+        private readonly WebappDbContext _db;
+        
+        public LoginApiController(WebappDbContext db)
         {
-            _dbContext = dbContext;
-        }*/
+            _db = db;
+        }
 
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginReqModel model)
         {
-            var test = model;
+
             var username = model.Username;
             var password = model.Password;
 
@@ -26,16 +29,15 @@ namespace My_Demo_webapp.Controllers.ApiController
             if (username != null && password != null)
                 try
                 {
-                    var user = "WACHIRAWIT";
-                    //var user = await _dbContext.MasUsers.FirstOrDefaultAsync(u => u.Username == username);
-                    //var user = await _dbContext.MasUsers.FirstOrDefaultAsync(u => u.Username == username);
+                    var checkUser = await _db.MasUsers.FirstOrDefaultAsync(u => u.Username == username);
+                    
 
-                    if (user != null)
+                    if (checkUser != null)
                     {
                         res = new ResponseModel
                         {
                             Status = "Success",
-                            Result = user
+                            Result = checkUser
                         };
                         return Ok(res);
                     }
