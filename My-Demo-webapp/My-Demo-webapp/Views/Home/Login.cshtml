@@ -4,10 +4,11 @@
 }
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My WebAppilcation Demo</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - My Web Application Demo</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 </head>
@@ -15,25 +16,37 @@
     <div class="login-con">
         <h1>Login</h1>
         <div class="login-form">
-            <div class="login-input">
-                <label>Username</label>
-                <input type="text" id="username" placeholder="Type your username" />
-            </div>
-            <div class="login-input">
-                <label>Password</label>
-                <input type="password" id="password" placeholder="Type your password" />
-            </div>
-            <div class="login-forgot">
-                <a href="#">Forgot password?</a>
-            </div>
-            <div class="login-choice">
-                <button onclick="loginApi()">LOGIN</button>
-                <a href="#">SIGN UP</a>
-            </div>
+            <form id="loginForm">
+                @* CSRF Token *@
+                @Html.AntiForgeryToken()
+
+                <div class="login-input">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Type your username" />
+                </div>
+
+                <div class="login-input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Type your password" />
+                    <button type="button" class="show-password" id="togglePassword">Show</button>
+                </div>
+
+                <div class="login-forgot">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <div class="login-choice">
+                    <button type="submit" class="btn btn-primary">LOGIN</button>
+                    <a href="/Home/Register" class="btn btn-link">SIGN UP</a>
+                </div>
+            </form>
         </div>
     </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/login.js" asp-append-version="true"></script>
 </body>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/login.js" asp-append-version="true"></script>
 </html>

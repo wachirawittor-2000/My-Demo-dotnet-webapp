@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "My_Demo_webapp.Controllers.ApiController.RegisterApiController",
+    "Method": "Register",
+    "RelativePath": "api/RegisterApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "My_Demo_webapp.Models.RegisterReqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

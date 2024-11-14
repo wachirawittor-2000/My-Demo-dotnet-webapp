@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\resgister.css",
+      "PackagePath": "staticwebassets\\css\\resgister.css"
+    },
+    {
       "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -21,8 +25,12 @@
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
     },
     {
       "Id": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\lib\\bootstrap\\LICENSE",

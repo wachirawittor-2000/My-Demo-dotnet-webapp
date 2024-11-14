@@ -3,60 +3,24 @@
   "WorkspaceRootPath": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\apicontroller\\loginapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\apicontroller\\loginapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\entites\\masuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\entites\\masuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\models\\loginreqmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\models\\loginreqmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\apicontroller\\registerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\apicontroller\\registerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\apicontroller\\loginapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\apicontroller\\loginapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|d:\\dotnet\\my-demo-webapp\\my-demo-webapp\\my-demo-webapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{497C889F-10E3-49F7-A026-71ECD82F1BD6}|My-Demo-webapp\\My-Demo-webapp.csproj|solutionrelative:my-demo-webapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,185 +29,73 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 248,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 442,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\appsettings.json",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\appsettings.json",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\appsettings.json",
-              "RelativeToolTip": "My-Demo-webapp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T08:40:55.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241029083958_InitialCreate.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Migrations\\20241029083958_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:39:58.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Program.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Program.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Program.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:10:49.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginApiController.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:31:43.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Data\\DbContext.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Data\\DbContext.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Data\\DbContext.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Data\\DbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:06:14.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MasUser.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Entites\\MasUser.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Entites\\MasUser.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Entites\\MasUser.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Entites\\MasUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:02:47.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginReqModel.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\LoginReqModel.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Models\\LoginReqModel.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\LoginReqModel.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Models\\LoginReqModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:34:50.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:39:16.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Models\\ResponseModel.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Models\\ResponseModel.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Models\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:35:48.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "login.js",
               "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\login.js",
               "RelativeDocumentMoniker": "My-Demo-webapp\\wwwroot\\js\\login.js",
               "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\login.js",
               "RelativeToolTip": "My-Demo-webapp\\wwwroot\\js\\login.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-25T11:28:48.813Z"
+              "WhenOpened": "2024-11-12T15:10:21.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "login.css",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\wwwroot\\css\\login.css",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "My-Demo-webapp\\wwwroot\\css\\login.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T10:14:52.98Z"
+              "DocumentIndex": 0,
+              "Title": "register.js",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\register.js",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\wwwroot\\js\\register.js",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\register.js",
+              "RelativeToolTip": "My-Demo-webapp\\wwwroot\\js\\register.js",
+              "ViewState": "AQIAACoAAAAAAAAAAAAgwDoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-12T15:09:04.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "My-Demo-webapp\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T09:55:12.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "My-Demo-webapp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T09:10:29.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "My-Demo-webapp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "RegisterApiController.cs",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\RegisterApiController.cs",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\ApiController\\RegisterApiController.cs",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\RegisterApiController.cs",
+              "RelativeToolTip": "My-Demo-webapp\\Controllers\\ApiController\\RegisterApiController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwE4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T09:10:23.593Z"
+              "WhenOpened": "2024-11-12T14:47:09.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\wwwroot\\js\\main.js",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "My-Demo-webapp\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-12T13:30:45.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginApiController.cs",
+              "DocumentMoniker": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
+              "RelativeDocumentMoniker": "My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
+              "ToolTip": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
+              "RelativeToolTip": "My-Demo-webapp\\Controllers\\ApiController\\LoginApiController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowEcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:04:28.522Z",
+              "EditorCaption": ""
             }
           ]
         }

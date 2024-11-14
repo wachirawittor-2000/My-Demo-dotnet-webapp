@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using My_Demo_webapp.Data;
 
@@ -10,9 +11,11 @@ using My_Demo_webapp.Data;
 namespace My_Demo_webapp.Migrations
 {
     [DbContext(typeof(WebappDbContext))]
-    partial class WebappDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241112121617_AddEmailToMasUser")]
+    partial class AddEmailToMasUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

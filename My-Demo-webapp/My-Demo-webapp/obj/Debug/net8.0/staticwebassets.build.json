@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2hE52dIcdRN+7TeK0TyldB0k+nPrG00NB5kJzUAayh8=",
+  "Hash": "Jh8r+ldIhqYz5pf4k4XajbH+E/OgLgm+uU51xWhVgek=",
   "Source": "My-Demo-webapp",
   "BasePath": "_content/My-Demo-webapp",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
+      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\resgister.css",
+      "SourceId": "My-Demo-webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\",
+      "BasePath": "_content/My-Demo-webapp",
+      "RelativePath": "css/resgister.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\resgister.css"
+    },
+    {
       "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\css\\site.css",
       "SourceId": "My-Demo-webapp",
       "SourceType": "Discovered",
@@ -131,12 +150,12 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\site.js",
+      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\main.js",
       "SourceId": "My-Demo-webapp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\",
       "BasePath": "_content/My-Demo-webapp",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +166,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\js\\register.js",
+      "SourceId": "My-Demo-webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\",
+      "BasePath": "_content/My-Demo-webapp",
+      "RelativePath": "js/register.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\register.js"
     },
     {
       "Identity": "D:\\DotNet\\My-Demo-webapp\\My-Demo-webapp\\My-Demo-webapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

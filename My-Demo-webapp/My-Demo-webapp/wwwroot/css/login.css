@@ -1,62 +1,113 @@
-﻿* {
+﻿/* Reset default margin, padding, and box-sizing for all elements */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* General body styling */
 body {
     background-color: #f2e5e2;
+    font-family: Arial, sans-serif;
 }
 
+/* Login container */
 .login-con {
+    width: 90%; /* ปรับให้ขนาดที่ใช้งานได้ในหลายอุปกรณ์ */
+    max-width: 400px; /* จำกัดขนาดสูงสุด */
+    height: auto;
     border: 1px solid black;
     background-color: white;
-    width: 400px;
-    height: 500px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+    /* Title style inside the login container */
     .login-con h1 {
         text-align: center;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0;
+        font-size: 24px;
+        color: #333;
     }
 
+/* Login form container */
 .login-form {
-    /*border: 1px solid blue;*/
-    padding: 20px 0px 10px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
+/* Styling for input fields */
 .login-input {
+    position:relative;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px 0px 10px;
-    margin-bottom: 10px;
-    
-}
-
-.login-input label {
-    width: 100px;
-    text-align: left;
-}
-
-.login-input input {
     width: 100%;
-    border: solid 1px blue;
-    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
+    .login-input label {
+        width: 100px;
+        align-content: center;
+        text-align:center;
+        margin-right: 8px;
+        font-size: 16px;
+        width:100px;
+        color: #333;
+    }
+
+    .login-input input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #869af3;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        transition: border 0.3s ease;
+    }
+
+        .login-input input:focus {
+            border-color: #4d79ff;
+        }
+
+.show-password {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    right: 13px;
+    top: 15px;
+    padding: 5px;
+
+}
+
+/*.login-input {
+    position: relative;*/ /* เพื่อให้ปุ่ม show-password อยู่เหนือ input */
+/*}*/
+
+/* Forgot password link */
 .login-forgot {
     text-align: end;
     padding-right: 12px;
+    font-size: 14px;
+    color: #4d79ff;
+    cursor: pointer;
 }
 
+    .login-forgot:hover {
+        text-decoration: underline;
+    }
 
+/* Login choice buttons */
 .login-choice {
     display: flex;
     flex-direction: column;
@@ -69,4 +120,74 @@ body {
         height: 40px;
         border-radius: 10px;
         background-color: #869af3;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
     }
+
+        .login-choice button:hover {
+            background-color: #4d79ff;
+        }
+
+/* Media Queries for responsiveness */
+
+/* Small devices (mobile portrait) */
+@media (max-width: 480px) {
+    .login-con {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+        .login-con h1 {
+            font-size: 20px;
+        }
+
+    .login-input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .login-input label {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        .login-input input {
+            width: 100%;
+        }
+
+    .login-choice button {
+        width: 100%; /* ปรับให้ปุ่มกว้างเต็มหน้าจอ */
+        font-size: 18px;
+    }
+
+    .login-forgot {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+    .login-con {
+        width: 80%;
+    }
+
+        .login-con h1 {
+            font-size: 22px;
+        }
+
+    .login-choice button {
+        width: 180px;
+    }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 1024px) {
+    .login-con {
+        width: 400px;
+    }
+}

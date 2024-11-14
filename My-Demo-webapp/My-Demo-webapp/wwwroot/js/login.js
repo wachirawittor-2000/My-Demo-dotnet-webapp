@@ -1,26 +1,47 @@
-function loginApi() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+document.getElementById('togglePassword').addEventListener('click', function () {
+    var passwordField = document.getElementById('password');
+    var passwordButton = document.getElementById('togglePassword');
 
-    console.log("Username : ", username, " and Password : ", password);
+    // เช็คว่า input เป็นแบบ password หรือไม่
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text';  // แสดงรหัสผ่าน
+        passwordButton.textContent = 'Hide'; // เปลี่ยนข้อความเป็น "Hide"
+    } else {
+        passwordField.type = 'password'; // ซ่อนรหัสผ่าน
+        passwordButton.textContent = 'Show'; // เปลี่ยนข้อความเป็น "Show"
+    }
+});
 
-    var user = {
+document.getElementById('loginForm').addEventListener('submit', function (event) {
+    event.preventDefault();  // ป้องกันการรีเฟรชหน้าเมื่อ submit
+
+    // รับค่าจากฟอร์ม
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // สร้างข้อมูลที่จะส่งไปยังเซิร์ฟเวอร์
+    const formData = {
         username: username,
         password: password
-    }
+    };
 
-    $.ajax({
-        url: 'api/LoginApi/',
-        type: 'POST',
-        dataType: 'json',
-        contentType: 'application/json',
-        data: JSON.stringify(user),
-    }).then(function (response) {
-        if (response.status == "Success") {
-            console.log("Login Success!!");
-            console.log(response.result);
-        }
-    }, function (error) {
-        console.log("Login failed");
-    });
-}
+    // เรียกใช้ฟังก์ชัน submitForm
+    submitForm('/api/LoginApi', formData)
+        .then(response => {
+            Swal.fire({
+                title: 'Login success',
+                text: 'Your request has been processed successfully.',
+                icon: 'success'
+            });
+            console.log(response);
+        })
+        .catch(error => {
+            Swal.fire({
+                title: "Login fail",
+                text: error.responseJSON.errorCode + " : " + error.responseJSON.errorMessage,
+                icon: 'error'
+            });
+            
+        });
+});
+

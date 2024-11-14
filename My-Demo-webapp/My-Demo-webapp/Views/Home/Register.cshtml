@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Application Demo | Register</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div class="login-con container">
+        <h1 class="text-center">Register</h1>
+        <div class="login-form">
+            <form id="registerForm">
+                <div class="form-group login-input">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Type your username" required />
+                </div>
+                <div class="form-group login-input">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Type your password" required />
+                </div>
+                <div class="form-group login-input">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Type your password again" required />
+                </div>
+                <p id="error-message"></p>
+                <div class="form-group login-input">
+                    <label for="firstname">First Name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Type your first name" required />
+                </div>
+                <div class="form-group login-input">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Type your last name" required />
+                </div>
+                <div class="form-group login-input">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Type your email" required />
+                </div>
+                <div class="login-choice text-center">
+                    <button type="submit" class="btn btn-primary mt-3">SIGN UP</button>
+                    <p class="mt-2">
+                        <a href="/Home/Login">I have an account</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/register.js" asp-append-version="true"></script>
+</body>
+</html>
