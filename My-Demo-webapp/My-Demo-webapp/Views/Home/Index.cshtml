@@ -2,7 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <h2 class="text-center">Product List</h2>
+    <div class="d-flex justify-content-between mb-3">
+        <button onclick="window.location.href='/add-edit-product.html'" class="btn btn-success">Add New Product</button>
+    </div>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="productTableBody">
+            <!-- รายการสินค้าจะถูกแทรกในนี้ -->
+        </tbody>
+    </table>
 </div>

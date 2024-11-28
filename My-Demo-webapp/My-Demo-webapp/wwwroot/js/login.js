@@ -29,10 +29,15 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     submitForm('/api/LoginApi', formData)
         .then(response => {
             Swal.fire({
-                title: 'Login success',
-                text: 'Your request has been processed successfully.',
-                icon: 'success'
+                title: 'Login success!',
+                icon: 'success',
+                confirmButtonText: 'Ok'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.replace("/Home/Index");
+                }
             });
+            window.location.href('/Home/Index')
             console.log(response);
         })
         .catch(error => {

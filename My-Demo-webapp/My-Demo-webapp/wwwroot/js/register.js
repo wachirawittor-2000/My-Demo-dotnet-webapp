@@ -36,11 +36,18 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
         submitForm('/api/RegisterApi', formData)
             .then(response => {
                 Swal.fire({
-                    title: 'Register success',
-                    text: 'Your request has been processed successfully.',
-                    icon: 'success'
-                });
-                console.log(response);
+                    title: 'Register success!',
+                    text: "",
+                    icon: 'success',
+                    showCancelButton: true,
+                    confirmButtonText: 'Go to login page',
+                    cancelButtonText: 'Stay here'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.replace("/Home/Login");
+                    }
+                })
+                
             })
             .catch(error => {
                 Swal.fire({
@@ -48,7 +55,6 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
                     text: error.responseJSON.errorCode + " : " + error.responseJSON.errorMessage,
                     icon: 'error'
                 });
-
             });
     } else {
         Swal.fire({

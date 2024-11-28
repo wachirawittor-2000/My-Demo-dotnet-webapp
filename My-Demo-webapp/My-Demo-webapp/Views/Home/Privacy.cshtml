@@ -3,4 +3,30 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container mt-5">
+    <h2 id="form-title" class="text-center">Add / Edit Product</h2>
+    <div class="card p-4">
+        <form id="productForm">
+            <div class="mb-3">
+                <label for="productName" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="productName" name="productName" placeholder="Enter product name" required>
+            </div>
+            <div class="mb-3">
+                <label for="productDescription" class="form-label">Product Description</label>
+                <textarea class="form-control" id="productDescription" name="productDescription" placeholder="Enter product description" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="productPrice" class="form-label">Price</label>
+                <input type="number" class="form-control" id="productPrice" name="productPrice" placeholder="Enter product price" min="0" step="0.01" required>
+            </div>
+            <div class="mb-3">
+                <label for="productStock" class="form-label">Stock</label>
+                <input type="number" class="form-control" id="productStock" name="productStock" placeholder="Enter stock quantity" min="0" required>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary me-2" onclick="resetForm()">Cancel</button>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
